@@ -43,9 +43,9 @@ To run:
 1. In Visual Studio Code install the Prettier extension.
 2. Go to Code -> Settings -> Preferences, search for `editor.formatOnSave`, set to True.
 
-## Doctor Login
+## Client Login
 
-1. Login page for doctors/clients http://localhost:3000/login_client
+1. Login page for clients http://localhost:3000/login_client
 2. Use email dr@test.com password 12345678
 3. Use these credentials so you will see the correct demo data.
 
