@@ -37,7 +37,9 @@ app.use(baseAPIPath, require("./app/routes/account.routes"));
 app.use(baseAPIPath, require("./app/routes/email.routes"));
 app.use(baseAPIPath, require("./app/routes/search.routes"));
 app.use(baseAPIPath, require("./app/routes/class.routes"));
-app.use(baseAPIPath, require("./app/routes/status.routes"));
+
+// Database Status
+app.use(baseAPIPath, require("./app/routes/database-status.routes"));
 
 app.listen(config.port).on("listening", () => {
   console.log(`API is live on ${config.port}`);
