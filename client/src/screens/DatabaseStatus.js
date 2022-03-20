@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import { Redirect } from "react-router-dom";
 
 import databaseStatusService from "../services/database-status.service";
@@ -19,7 +20,12 @@ const DatabaseStatus = () => {
     return <Redirect to="/404" />;
   }
 
-  return <div>Date/Time: {dateTimeFormat(status)}</div>;
+  return (
+    <div>
+      Date/Time:
+      {dateTimeFormat(status)}
+    </div>
+  );
 };
 
 export default DatabaseStatus;
