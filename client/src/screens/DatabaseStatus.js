@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Redirect } from "react-router-dom";
 
-import statusService from "../services/status.service";
+import databaseStatusService from "../services/database-status.service";
 import { dateTimeFormat } from "../utils/helpers";
 
 const DatabaseStatus = () => {
@@ -9,7 +9,7 @@ const DatabaseStatus = () => {
   const [redirect, setRedirect] = useState(false);
 
   useEffect(() => {
-    statusService
+    databaseStatusService
       .getDatabaseStatus()
       .then((res) => setStatus(res))
       .catch(() => setRedirect(true));
