@@ -9,7 +9,8 @@
 ## Database
 
 1. Install PostgreSQL
-2. Load file postgres_start.txt
+2. create database institute;
+3. psql -d institute -f postgres_start.txt
 
 ## Frontend
 
