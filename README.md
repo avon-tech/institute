@@ -31,7 +31,7 @@ Setup:
 3. `cp env.example .env`
 4. Edit .env and fill in database credentials
 5. Make sure your database is running on your machine
-6. `yarn dev` or `yarn start` for production
+6. `yarn dev` for development or `yarn start` for production
 
 ## Prettier
 
