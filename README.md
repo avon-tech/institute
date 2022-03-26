@@ -9,8 +9,8 @@
 ## Database
 
 1. Install PostgreSQL
-2. create database institute;
-3. psql -d institute -f postgres_start.txt
+2. `create database institute;`
+3. `psql -d institute -f postgres_start.txt`
 
 ## Frontend
 
@@ -19,11 +19,8 @@ Setup:
 1. `cd client`
 2. `yarn install`
 3. `cp env.example .env`
-
-To run:
-
-1. `yarn start`
-2. Open [http://localhost:3000](http://localhost:3000)
+4. `yarn start`
+5. Open [http://localhost:3000](http://localhost:3000)
 
 ## Backend
 
@@ -32,12 +29,9 @@ Setup:
 1. `cd server`
 2. `yarn install`
 3. `cp env.example .env`
-4. edit .env and fill in database credentials
+4. Edit .env and fill in database credentials
 5. Make sure your database is running on your machine
-
-To run:
-
-1. `yarn dev` or `yarn start` for production
+6. `yarn dev` or `yarn start` for production
 
 ## Prettier
 
