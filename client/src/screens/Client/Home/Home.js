@@ -81,8 +81,8 @@ export default function Home() {
             <Grid item md={12} xs={12}>
               <p className={classes.pageDescription}>Welcome to the Avon Institute functional medicine training program.</p>
               <p className={classes.pageDescription}>To start learning, click on the menu links on the left.</p>
-              <p className={classes.pageDescription}>To change your email or password, click Account on the upper right.</p>
-              <p className={classes.pageDescription}>To give us feedback on our program, click Contact on the upper right.</p>
+              <p className={classes.pageDescription}>To change your email or password, click Account on the top menu.</p>
+              <p className={classes.pageDescription}>To give us feedback on our program, click Contact on the top menu.</p>
               <p className={classes.pageDescription}>To learn more about AvonEHR software, visit www.AvonEHR.com.</p>
             </Grid>
 
