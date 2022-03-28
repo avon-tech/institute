@@ -37,6 +37,7 @@ yarn-error.log*
 
 # production
 /client/build
+/client/*.tgz
 
 # misc
 /client/.DS_Store
