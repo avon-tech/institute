@@ -34,9 +34,9 @@ create table module (
 );
 create unique index on module(name);
 
-insert into module (id, name, status, sort) values (1, 'Case Studies', 'A', 10);
+insert into module (id, name, status, sort) values (1, 'Case Studies', null, 10);
 insert into module (id, name, status, sort) values (2, 'Basics', 'A', 20);
-insert into module (id, name, status, sort) values (3, 'Iron', 'A', 30);
+insert into module (id, name, status, sort) values (3, 'Iron', 'A', 75);
 insert into module (id, name, status, sort) values (4, 'Thyroid', 'A', 40);
 insert into module (id, name, status, sort) values (5, 'Iodine', 'A', 50);
 insert into module (id, name, status, sort) values (6, 'Parathyroid', 'A', 60);
@@ -52,7 +52,7 @@ insert into module (id, name, status, sort) values (15, 'Toxicology', 'A', 150);
 insert into module (id, name, status, sort) values (16, 'Cardiovascular', 'A', 160);
 insert into module (id, name, status, sort) values (17, 'Male Health', 'A', 170);
 insert into module (id, name, status, sort) values (18, 'Female Health', 'A', 180);
-insert into module (id, name, status, sort) values (19, 'Autoimmunity', 'A', 190);
+insert into module (id, name, status, sort) values (19, 'Autoimmunity', 'A', 65);
 insert into module (id, name, status, sort) values (20, 'Neurology', 'A', 200);
 insert into module (id, name, status, sort) values (21, 'Gastroenterology', 'A', 210);
 insert into module (id, name, status, sort) values (22, 'Microbiome', 'A', 220);
@@ -1641,7 +1641,7 @@ insert into class(title, title_original, url, type, length, module_id, status, s
 , 16
 , 2
 , 'A'
-, 1
+, 20
 , $$1:35 Unhealthy adrenal function can cause fatigue.  This is diagnosed with a salivary cortisol panel.
 2:06 Sleep apnea or inadequate breathing during sleep can cause fatigue.  This is diagnosed by polysomnography.  Losing even 5-10 pounds of weight can help.
 3:38 Anemia can cause fatigue.  This is diagnosed by blood tests.  Iron supplements and IV iron can help.  <!-- women ferritin 70-120-->
