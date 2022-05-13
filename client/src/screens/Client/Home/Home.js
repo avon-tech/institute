@@ -71,7 +71,7 @@ export default function Home() {
           <Grid container spacing={2}>
             <Grid item md={5} xs={5}>
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=AXW_9O9U2sQ"
+                url="https://www.youtube.com/watch?v=fMWRqhRmtpo"
                 controls
               />
             </Grid>
@@ -82,8 +82,7 @@ export default function Home() {
               <p className={classes.pageDescription}>Welcome to the Avon Institute functional medicine training program.</p>
               <p className={classes.pageDescription}>To start learning, click on the menu links on the left.</p>
               <p className={classes.pageDescription}>To change your email or password, click Account on the top menu.</p>
-              <p className={classes.pageDescription}>To give us feedback on our program, click Contact on the top menu.</p>
-              <p className={classes.pageDescription}>To learn more about AvonEHR software, visit www.AvonEHR.com.</p>
+              <p className={classes.pageDescription}>For your completion certificate, click Certificate on the top menu.</p>
             </Grid>
 
           </Grid>
